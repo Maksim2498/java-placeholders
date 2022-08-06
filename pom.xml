@@ -4,7 +4,7 @@
 
     <groupId>space.moontalk</groupId>
     <artifactId>placeholders</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
 
     <name>Placeholders</name>
     <description>Small placeholders library</description>
