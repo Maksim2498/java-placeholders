@@ -41,7 +41,7 @@ Done.
 Just execute the following Maven command in your terminal:
 
 ```bash
-$ mvn install
+mvn install
 ```
 
 ## Documentation
