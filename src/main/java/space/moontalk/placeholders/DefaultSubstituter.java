@@ -50,9 +50,7 @@ public class DefaultSubstituter implements Substituter {
                 continue;
             }
 
-            if (i != 0)
-                builder.append(target.substring(i, openIndex));
-
+            builder.append(target.substring(i, openIndex));
             builder.append(value);
 
             val endIndex = closeIndex + close.length();
