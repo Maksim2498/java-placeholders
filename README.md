@@ -2,7 +2,8 @@
 
 ## Index
 
-- [Index](#about);
+- [Index](#index);
+- [About](#about);
 - [Installation](#installation);
 - [Building](#building);
 - [Documentation](#documentation).
