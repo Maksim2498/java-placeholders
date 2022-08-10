@@ -1,6 +1,6 @@
 package space.moontalk.placeholders;
 
-import org.checkerframework.checker.nullness.qual.NonNull;
+import org.jetbrains.annotations.NotNull;
 
 import lombok.Value;
 
@@ -10,6 +10,6 @@ public class DelimitersPair {
     public static final DelimitersPair CURLY        = new DelimitersPair("{", "}");
     public static final DelimitersPair DOLLAR_CURLY = new DelimitersPair("${", "}");
 
-    private final @NonNull String open;
-    private final @NonNull String close;
+    private final @NotNull String open;
+    private final @NotNull String close;
 }

@@ -1,6 +1,6 @@
 package space.moontalk.placeholders;
 
-import org.checkerframework.checker.nullness.qual.NonNull;
+import org.jetbrains.annotations.NotNull;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.val;
 
 @AllArgsConstructor
 public class DefaultSubstituter implements Substituter {
-    @NonNull
+    @NotNull
     @Getter
     @Setter
     private DelimitersPair delimitersPair;
@@ -19,7 +19,7 @@ public class DefaultSubstituter implements Substituter {
     }
 
     @Override
-    public @NonNull String substitute(@NonNull String target, @NonNull String ...replacements) {
+    public @NotNull String substitute(@NotNull String target, @NotNull String ...replacements) {
         if (replacements.length % 2 != 0)
             throw new IllegalArgumentException("number of replacements has to be even");
 
@@ -65,7 +65,7 @@ public class DefaultSubstituter implements Substituter {
         return builder.toString();
     }
 
-    private static @NonNull String substitutedOrNull(@NonNull String value, @NonNull String[] replacements) {
+    private static @NotNull String substitutedOrNull(@NotNull String value, @NotNull String[] replacements) {
         for (int i = 0; i < replacements.length; i += 2) 
             if (value.equals(replacements[i]))
                 return replacements[i + 1];

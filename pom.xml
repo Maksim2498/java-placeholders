@@ -4,7 +4,7 @@
 
     <groupId>space.moontalk</groupId>
     <artifactId>placeholders</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <name>Placeholders</name>
     <description>Small placeholders library</description>
@@ -16,9 +16,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.checkerframework</groupId>
-            <artifactId>checker-qual</artifactId>
-            <version>3.23.0</version>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>23.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

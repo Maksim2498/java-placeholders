@@ -1,9 +1,9 @@
 package space.moontalk.placeholders;
 
-import org.checkerframework.checker.nullness.qual.NonNull;
+import org.jetbrains.annotations.NotNull;
 
 public interface Substituter {
-    @NonNull String substitute(@NonNull String target, @NonNull String ...replacements);  
-    @NonNull DelimitersPair getDelimitersPair();
-    void setDelimitersPair(@NonNull DelimitersPair pair);
+    @NotNull String substitute(@NotNull String target, @NotNull String ...replacements);  
+    @NotNull DelimitersPair getDelimitersPair();
+    void setDelimitersPair(@NotNull DelimitersPair pair);
 }
