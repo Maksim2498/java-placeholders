@@ -17,22 +17,22 @@ delimiters or even implement your own substitutor implementing `Substitutor` int
 
 First, add MoonTalk repository to your pom.xml:
 
-`xml
+```xml
 <repository>
     <id>moontalk</id>
     <url>https://repo.moontalk.space/repository/maven-releases/</url>
 </repository>
-`
+```
 
 Second, add library as dependency:
 
-`xml
+```xml
 <dependency>
     <groupId>space.moontalk</groupId>
     <artifactId>placeholders</artifactId>
     <version>1.0.2</version>
 </dependency>
-`
+```
 
 Done.
 
@@ -40,9 +40,9 @@ Done.
 
 Just execute the following Maven command in your terminal:
 
-`
-$ mvn install
-`
+```bash
+mvn install
+```
 
 ## Documentation
 
