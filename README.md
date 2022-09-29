@@ -1,5 +1,7 @@
 # Java Placeholders
 
+![Logo](/images/logo.png)
+
 ## Index
 
 - [Index](#index);
